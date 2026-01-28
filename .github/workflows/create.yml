@@ -17,7 +17,7 @@ jobs:
           aws-region: us-east-1 # Replace with your target AWS region
 
      # installs latest version of terraform in the runner.
-      - name: run terarform init
+      - name: run terraform init
         uses: hashicorp/setup-terraform@v3
 
           
